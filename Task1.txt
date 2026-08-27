@@ -4,7 +4,7 @@ Variables
 -------------
 
 1.What is a variable in JavaScript?
-  A variable is a container used to store a value; it may be a number, a boolean, or a string.
+    A variable is a container used to store a value. In javascript we can create a variable by using the 3 keywords such as var,let, const.
 
 ----------------------------------------------------------------------------------------------------------------
 
