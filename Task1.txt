@@ -1,0 +1,314 @@
+JavaScript Basics — 50 Questions
+
+Variables
+-------------
+
+1.What is a variable in JavaScript?
+  A variable is a container used to store a value; it may be a number, a boolean, or a string.
+
+----------------------------------------------------------------------------------------------------------------
+
+2.What are the three keywords used to create variables?
+  1.var
+  2.let
+  3.const
+
+----------------------------------------------------------------------------------------------------------------
+
+3.Write the syntax to create a variable using var.
+  var a = 25;
+
+-----------------------------------------------------------------------------------------------------------------
+
+4.Write the syntax to create a variable using let.
+  let b = 30;
+
+-----------------------------------------------------------------------------------------------------------------
+
+5.Write the syntax to create a variable using const.
+  const c = 200;
+
+-----------------------------------------------------------------------------------------------------------------
+
+6.What is declaration?
+  Declaration means the process of creating a variable without assigning a value to it.
+
+------------------------------------------------------------------------------------------------------------------
+
+7.What is initialization?
+  Initialization means the process of assigning a value to a variable.
+
+------------------------------------------------------------------------------------------------------------------
+
+8.What is reassignment?
+  Reassignment means the process of changing the value of an already existing variable.
+
+-------------------------------------------------------------------------------------------------------------------
+
+9.What is redeclaration?
+  Redeclaration means the process of declaring the same variable again using the same keyword.
+
+-------------------------------------------------------------------------------------------------------------------
+
+10.Which keyword allows redeclaration?
+  "var" keyword only allows redeclaration.
+
+--------------------------------------------------------------------------------------------------------------------
+
+11.Which keyword allows reassignment?
+  "var" and "let" keywords allow reassignment.
+
+--------------------------------------------------------------------------------------------------------------------
+
+12.Which keyword requires initialization when declared?
+  "const" keyword requires initialization when it is declared.
+
+--------------------------------------------------------------------------------------------------------------------
+
+13.Identify the declaration and initialization:let age = 25;
+  Declaration: let age;
+  Initialization: age = 25 ;
+
+--------------------------------------------------------------------------------------------------------------------
+
+14.What is the value of a?
+   var a = 100;
+   console.log(a);
+
+   Value of a is 100.
+
+---------------------------------------------------------------------------------------------------------------------
+
+15.Change the value of this variable to 200:
+  let number = 100;
+
+  Answer:number = 200;
+
+----------------------------------------------------------------------------------------------------------------------
+
+16.What will be the output?
+   var a = 10;
+   console.log(a);
+
+   output: 10
+
+----------------------------------------------------------------------------------------------------------------------
+
+17.What will be the output?
+   var a = 10;
+   a = 20;
+   console.log(a);
+
+   output:20
+
+------------------------------------------------------------------------------------------------------------------------
+
+18.What will be the output?
+   var a = 10;
+   var a = 30;
+   console.log(a);
+
+   output:30
+
+-------------------------------------------------------------------------------------------------------------------------
+
+19.Write a var variable named name with the value "John".
+  var name = "John";
+
+-------------------------------------------------------------------------------------------------------------------------
+
+20.Create a var variable named price with the value 500.
+   var price = 500;
+
+--------------------------------------------------------------------------------------------------------------------------
+
+21.Reassign price from 500 to 1000.
+   price = 1000;
+
+--------------------------------------------------------------------------------------------------------------------------
+
+22.What will be the output?
+   var x = 50;
+   x = 100;
+   console.log(x);
+
+   output:100
+
+--------------------------------------------------------------------------------------------------------------------------
+
+23.Can a var variable be reassigned?
+   Yes. we can reassign a var variable.
+
+----------------------------------------------------------------------------------------------------------------------------
+
+24.Can a var variable be redeclared?
+   Yes. we can redeclare a var variable.
+
+----------------------------------------------------------------------------------------------------------------------------
+
+25.Write an example of var redeclaration.
+   var name = "Sridhar";
+   var name = "Ragu";
+
+   console.log(name);
+
+-----------------------------------------------------------------------------------------------------------------------------
+
+26.Create a let variable named age with the value 25.
+   let age = 25;
+
+-----------------------------------------------------------------------------------------------------------------------------
+
+27.What will be the output?
+   let age = 20;
+   age = 30;
+   console.log(age);
+
+   output:30
+
+------------------------------------------------------------------------------------------------------------------------------
+
+28.Can a let variable be reassigned?
+  Yes. we can reassign a let variable.
+
+------------------------------------------------------------------------------------------------------------------------------
+
+29.Can a let variable be redeclared?
+  No. A let variable cannot be redeclared.
+
+------------------------------------------------------------------------------------------------------------------------------
+
+30.Find the error:
+   let name = "John";
+   let name = "David";
+
+   Error: name has already been declared.
+   A let variable does not allow to redeclaration.
+
+-------------------------------------------------------------------------------------------------------------------------------
+
+31.Create a let variable called city and assign "Chennai".
+   let city = "Chennai";
+
+-------------------------------------------------------------------------------------------------------------------------------
+
+32.Change the value of city to "Salem".
+   let city = "Chennai";
+   city = "Salem";
+
+-------------------------------------------------------------------------------------------------------------------------------
+
+33.What will be the output?
+   let x = 10;
+   x = 50;
+   console.log(x);
+
+   output:50
+
+--------------------------------------------------------------------------------------------------------------------------------
+
+34.Write a let variable called salary with the value 25000.
+   let salary = 25000;
+
+--------------------------------------------------------------------------------------------------------------------------------
+
+35.Reassign salary to 30000.
+  let salary = 25000;
+  salary = 30000;
+
+---------------------------------------------------------------------------------------------------------------------------------
+
+36.Create a const variable called pi with the value 3.14.
+   const pi = 3.14;
+
+---------------------------------------------------------------------------------------------------------------------------------
+
+37.Can a const variable be reassigned?
+   No. A const variable cannot be reassigned.
+
+---------------------------------------------------------------------------------------------------------------------------------
+
+38.Can a const variable be redeclared?
+   No. A const variable cannot be redeclared.
+
+----------------------------------------------------------------------------------------------------------------------------------
+
+39.What is wrong with this code?
+   const age;
+   age = 25;
+
+   Error: A const variable must be initialized when it is declared.
+
+-----------------------------------------------------------------------------------------------------------------------------------
+
+40.What happens here?
+   const price = 500;
+   price = 1000;
+
+   Error: You cannot reassign a const variable.The value of price remains 500.
+
+------------------------------------------------------------------------------------------------------------------------------------
+
+41.Create a const variable called country with the value "India".
+   const country = "India";
+
+------------------------------------------------------------------------------------------------------------------------------------
+
+42.What will be the output?
+   const x = 100;
+   console.log(x);
+
+   output:100
+
+-------------------------------------------------------------------------------------------------------------------------------------
+
+43.Which keyword should you use if the value should not be reassigned?
+   We have to use the const keyword to avoid reassignment.
+
+--------------------------------------------------------------------------------------------------------------------------------------
+
+44.What is the difference between let and const?
+
+ The difference between let and const is that let can be reassigned, does not require immediate initialization, and cannot be redeclared, while const cannot be reassigned, must be initialized when declared, and cannot be redeclared.
+
+---------------------------------------------------------------------------------------------------------------------------------------
+
+45.What is the difference between var and const?
+
+  The difference between var and const is that var can be reassigned and redeclared, while const cannot be reassigned, must be initialized when declared, and cannot be redeclared.
+
+----------------------------------------------------------------------------------------------------------------------------------------
+
+46.Write JavaScript code to print Hello World using console.log().
+   console.log("Hello World");
+
+----------------------------------------------------------------------------------------------------------------------------------------
+
+47.Write JavaScript code to print the number 500 using console.log().
+   console.log(500);
+
+-----------------------------------------------------------------------------------------------------------------------------------------
+
+48.What is the purpose of console.warn()?
+   console.warn() is used to show a warning message in the browser console.
+
+-----------------------------------------------------------------------------------------------------------------------------------------
+
+49.What is the purpose of console.error()?
+   console.error() is used to show an error message in the browser console.
+
+-----------------------------------------------------------------------------------------------------------------------------------------
+
+50.What is the purpose of each?
+   alert()
+   prompt()
+   confirm()
+   document.writeln()
+   console.log()
+
+   Answer:
+   1.alert() - Shows a message to the user in a popup box.
+   2.prompt() - Asks the user to enter some information.
+   3.confirm() - Asks the user to confirm an action. It returns true for OK and false for Cancel.
+   4.document.writeln() - Writes content directly to the webpage.
+   5.console.log() - Prints information or values in the browser console, mainly for debugging.
