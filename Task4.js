@@ -40,13 +40,13 @@ for(let num1=1;num1<=20;num1++){
 }
 
 //Task 5 — Multiplication Table
-// console.log("-----------------------Task 5----------------------");
-// var num1=prompt("Enter the number to find multiplication table")
-// for(let num2=1;num2<=10;num2++){
+ console.log("-----------------------Task 5----------------------");
+ var num1=prompt("Enter the number to find multiplication table")
+for(let num2=1;num2<=10;num2++){
 
-//     console.log(num1+"x"+num2+"="+num1*num2);
+     console.log(num1+"x"+num2+"="+num1*num2);
 
-// }
+ }
 
 //While Loop
 //Task 6 — Countdown
